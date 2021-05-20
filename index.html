@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick Yudha</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="icon" href="img/web-icon.png">
+    <style media="screen">
+    ::-webkit-scrollbar {width: 4px;}
+    ::-webkit-scrollbar-thumb {
+      background: rgb(125,195,190);
+      background: linear-gradient(356deg, rgba(125,195,190,1) 0%, rgba(255,176,220,1) 100%);
+      border-radius: 10px;
+    }
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+    </style>
+  </head>
+
+
+  <body class="remove-pm">
+    <nav>
+      <a id="nav-logo" href="#">Erick Yudha</a>
+      <div id="nav-menu">
+        <a href="#about-me">about</a>
+        <a href="#my-skill">my skill</a>
+        <a href="#projects">projects</a>
+        <a href="#contact-me">contact me</a>
+      </div>
+    </nav>
+
+    <div class="body-container">
+      <div class="hero">
+        <div></div>
+        <h1>
+            Hello, my name is <span class="pink-text">Erick!</span>
+            <br>I am a <span class="lpink-text">Computer Science</span> student
+            <br>living in Bogor, West Java, Indonesia.
+        </h1>
+        <a id="down-button" href="#about-me">
+          <img class="no-select" src="img/down-button.png" draggable="false">
+        </a>
+      </div>
+      <div class="about-me">
+        <div id="about-me" class="remove-pm"></div>
+        <div class="section-logo" id="abt-logo"></div>
+        <div class="section-tag" id="abt-tag">about me</div>
+        <div id="abt-content">
+          I'm a first-year Computer Science undergraduate student
+          at <a href="https://www.usu.ac.id/id/" target="_blank">University of North Sumatera</a>
+          with an interest in full-stack web development and software engineering.
+        </div>
+        <div></div>
+      </div>
+      <div class="my-skill">
+        <div id="my-skill" class="remove-pm"></div>
+        <div class="section-logo" id="skill-logo"></div>
+        <div class="section-tag" id="skill-tag">my skill</div>
+        <ul id="skill-content">
+          <li> <img src="img/html5.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/css3.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/python.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/dart.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/swift.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/photoshop.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/illustrator.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/xd.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/git.png" class="no-select" draggable="false"> </li>
+          <li> <img src="img/so.png" class="no-select" draggable="false"> </li>
+        </ul>
+        <div class="section-tag" id="skill-tag">overall skill</div>
+        <table id="skill-table">
+          <tr>
+            <td class="skill-tag">Leadership</td>
+            <td><div class="skill-meter" style="width: 35%;"></div></td>
+          </tr>
+          <tr>
+            <td class="skill-tag">Communication</td>
+            <td><div class="skill-meter" style="width: 42%;"></div></td>
+          </tr>
+          <tr>
+            <td class="skill-tag">Team player</td>
+            <td><div class="skill-meter" style="width: 30%;"></div></td>
+          </tr>
+          <tr>
+            <td class="skill-tag">Design</td>
+            <td><div class="skill-meter" style="width: 53%;"></div></td>
+          </tr>
+          <tr>
+            <td class="skill-tag">Programming</td>
+            <td><div class="skill-meter" style="width: 65%;"></div></td>
+          </tr>
+        </table>
+        <div></div>
+      </div>
+      <div class="my-projects">
+        <div id="projects" class="remove-pm"></div>
+        <div class="section-logo" id="projects-logo"></div>
+        <div class="section-tag" id="projects-tag">my projects</div>
+        <ul id="projects-content">
+          <li class="shadow">
+            <img class="card-logo" src="img/mathbot.png" draggable="false">
+            <p>
+              <b>Mathbot</b> <br>
+                my first messaging bot i built on Line platform using Line Messaging
+                API. It has several features but i built it mainly to be used for
+                the calculator that can store variable. <br>
+                <img src="img/line.png" draggable="false">
+                <span style="font-size: 1rem;"> : @260tdseh </span>
+            </p>
+          </li>
+          <li class="shadow">
+            <img class="card-logo" src="img/github-m.png" draggable="false">
+            <p>
+                <b>Other Small Project</b> <br>
+                you can see my github repositories to see my other small projects. <br>
+                <img src="img/github-xs.png" draggable="false">
+                <span style="font-size:1rem;"> : Arcturus187 </span>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <footer id="contact-me">
+        <form id="contact-me-form" action="#contact-me">
+          <h1>Contact Me</h1>
+          <input class="input-box" type="text" name="name" placeholder="Name">
+          <input class="input-box" type="email" name="email" placeholder="E-mail">
+          <textarea class="input-box" name="message" rows="8" cols="80" placeholder="Your Message Here"></textarea>
+          <button class="btn-grad" type="submit" name="button">Send</button>
+        </form>
+        <div class="special-thx">
+          <div></div>
+          <h2>Special Thanks</h2>
+          <div class="special-box">
+            Hero section photo by
+            <a href="https://www.pexels.com/@josh-hild-1270765?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">
+                Josh Hild
+            </a> from
+            <a href="https://www.pexels.com/photo/city-buildings-with-lights-turned-on-during-night-time-3504183/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">
+                Pexels
+            </a>. <br>
+            Skill section photo by
+            <a href="https://www.pexels.com/@apasaric?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">
+              Aleksandar Pasaric
+            </a> from
+            <a href="https://www.pexels.com/photo/woman-walking-in-the-street-during-night-time-1134166/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">
+              Pexels
+            </a>.
+          </div>
+          <ul id="contact-logo">
+            <li>
+              <a href="https://github.com/Arcturus187/" target="_blank">
+                <img src="img/github-l.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/erickyudha/" target="_blank">
+                <img src="img/linkedin-l.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/arcturus_18/" target="_blank">
+                <img src="img/instagram-l.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
